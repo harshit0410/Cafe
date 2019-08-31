@@ -1,0 +1,210 @@
+
+
+.header {
+    max-height: 600px;
+    width: 100%;
+    background-image: url(coffee-3120750_1920.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+}
+.header .text{
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 30%;
+    font-size: 30px;
+    color: white;
+}
+.header .text hr{
+    color: white;
+    width: 50%;
+    
+    
+}
+.testonomial{
+display: block;
+    background-color:white;
+    padding: 20px 0;
+     margin: auto;
+}
+.testonomial h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.des{
+    margin: 0 auto;
+    width: 100%;
+    display: inline-flex;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+
+    border-radius:50%;
+}
+.card p{
+    width: 250px;
+    height: 150px;
+    
+}
+.a{
+    padding: 0 50px;
+}
+body{
+    margin: 0;
+    
+}
+.card{
+   
+    padding: 5px;
+    transition: transform 1s;
+    background-color: white;
+    margin: 0 auto;
+        
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.main{
+    display: flex;
+    background:linear-gradient(#43C6AC,#F8FFAE);
+    color: white;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.center{
+    text-align: center;
+     margin: 0 auto;
+    flex: 1;
+    
+}
+.center h3{
+    font-size: 30px;
+}
+
+.left{
+    margin:  0 auto;
+    text-align: center;
+    flex: 1;
+}
+.left h3{
+    font-size: 30px;
+}
+.right{
+    margin: 0 auto;
+    text-align: center;
+    flex: 1;
+}
+.right h3{
+    font-size: 30px;
+}
+ .nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 ;
+    overflow: hidden;
+    
+     top: 0;
+    text-align: center;width: 100%;
+    
+}
+.nav li{
+    display:inline-block;
+    margin: 0;
+    text-align: center;
+font-size: 2.5vw    
+
+}
+.nav li a{
+    display:block;
+
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+.gallery{
+    background-image: url(beard-2326422_1280.jpg);
+    height: 600px;
+    
+    width: 100%;
+    animation-name: ex;
+    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+/*@keyframes ex{
+    25%{background-image: url(coffee-shop-1209863_1280.jpg);}
+    50%{background-image: url(cafe-768771_1280.jpg);}
+    75%{background-image: url(cafe-3537801_1280.jpg);}
+    100%{background-image: url(beard-2326422_1280.jpg);}
+}*/
+.menu{
+    background-image: url(menu.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size:cover;
+    
+}
+.menu h3 {
+    position:relative;
+    top:20%;
+    left: 50px;
+    font-size: 50px;
+    color:antiquewhite;
+    font-family: sans-serif;
+
+    
+    
+}
+
+
+.menu h3 a{
+    text-decoration: none;
+    color: aquamarine
+}
+.follow{
+    display: flex;
+    margin: 0 auto;
+    width:300px;
+    
+}
+.follow img{
+    width: 100px;
+    height: 100px;
+    
+}
+.footer{
+    display: flex;
+     width:100%;
+    margin-top: 20px;
+    background-color: #014069;
+   font-size: 20px;
+    color:yellow;
+    
+}.footer .p{
+    margin:0 auto;
+}
+.footer .q{
+    margin:0 auto;
+}
+.footer .r{
+    margin: 0 auto;
+}.footer a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:785px){
+    .main{
+        display: block;
+    }
+    .testonomial{
+        display: none;
+    }
+}
